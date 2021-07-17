@@ -1,0 +1,194 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:900;
+    font-size: 41px;
+}
+#brand{
+    margin: 0 auto 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:900;
+    font-size: 41px;
+    text-decoration: none;
+    color: silver;
+
+}
+#menudrop{
+    margin-left: 50px;
+}
+#title{
+    background-color: #45046A;
+    padding-bottom: 15%;
+}
+#navbar{
+    padding-bottom: 5px;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+#section1{
+    padding-top: 8%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.container{
+    padding:3%;
+}
+.nav-item{
+    padding: 0 20px;
+}
+.dwld{
+    margin:5% 3% 5% 0%;
+}
+.title-img{
+    width: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 55%;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: #8f8f8f;
+}
+.feature-box{
+    text-align: center;
+}
+.icon{
+    color: #892CDC;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #52057B;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+#testimonials{
+    background-color: #D62AD0;
+    text-align: center;
+    color: white;
+    padding: 5% 0;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.test-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #D62AD0;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    text-align: center;
+    padding: 100px 0;
+}
+.pricing{
+    padding: 40px 25px;
+}
+#cta{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #45046A;
+}
+#fin{
+    color: white;
+    font-size: 50px;
+    line-height: 2;
+}
+#footer{
+    padding: 2% 10%;
+    text-align: center;
+}
+.social{
+    padding: 10px 20px 20px;
+  
+    
+}
+@media (max-width:1028px) {
+    p{
+        font-size: 30px;
+    }
+    /* Navbar-Section */
+    #brand{
+        font-size: 80px;
+    }
+
+    .navbar-toggler-icon{
+        font-size: 60px;
+    }
+    .nav-item{
+        font-size: 40px;
+        padding: 40px;
+    }
+    .navbar{
+        height: 300px;
+    }
+    /* Title-Section */
+    #Front{
+        font-size: 100px;
+        font-weight:600;
+    }
+    #title{
+        text-align: center;
+        height: 100vh;
+    }
+    .title-img{
+        position: static;
+        margin-top: 80px;
+        width: 70%;
+        transform: rotate(0);
+    }
+    /* Review-Section */
+    #testimonials{
+        height: 80vh;
+    }
+    #carousel-temp{
+        margin-top: 50%;
+    }
+
+    /* Plan-Section */
+    #priceheading{
+        font-size: 50px;
+    }
+    #pricing{
+        height: 100vh;
+    }
+    #cards{
+        font-size: 4px;
+        margin-top: 25%;
+    }
+
+    /* Download-Section */
+    #cta{
+        height: 100vh;
+    }
+    #dwld-content{
+        margin-top: 50%;
+    }
+    #fin{
+        font-size: 100px;
+    }
+}
